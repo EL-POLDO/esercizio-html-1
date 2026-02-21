@@ -1,0 +1,29 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+h2{
+    color: darkgreen;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+.colorbackground{
+    background-color: blue;
+}
+
+.colorimg{
+    width: 500px;
+    height: 500px;
+    background-image: url(./media/database-cover-1.jpg);
+    background-size:contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.colorimg:hover{
+    background-color: red;
+}
